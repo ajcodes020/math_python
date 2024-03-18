@@ -1,8 +1,5 @@
 print("This program will check if a given integer number is a perfect number.")
 
-# Asks user for an integer number.
-number = int(input("Enter an integer number: "))
-
 
 def is_perfect_number(n):
     """ Return True if given integer number is a perfect number, else False """
@@ -10,4 +7,5 @@ def is_perfect_number(n):
     return divisors_sum == n
 
 
+number = int(input("Enter an integer number: "))
 print(f"{number} is a perfect number.") if is_perfect_number(number) else print(f"{number} is not a perfect number.")
