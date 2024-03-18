@@ -1,4 +1,4 @@
-print("This program will output all perfect numbers in a given range.")
+print("This program will check if a given integer number is a perfect number.")
 
 # Asks user for an integer number.
 number = int(input("Enter an integer number: "))
