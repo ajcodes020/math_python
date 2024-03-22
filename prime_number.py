@@ -9,6 +9,6 @@ def is_prime(n):
     else:
         return True
 
-# asks for user input
+
 number = int(input("Enter an integer number: "))
 print(f"{number} is a prime number.") if is_prime(number) else print(f"{number} is not a prime number.")
